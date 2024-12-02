@@ -1,17 +1,17 @@
+var app = document.getElementById('app');
 
-let app = document.getElementById('typewriter');
- 
-let typewriter = new Typewriter(app, {
-  loop: true,
-  delay: 75,
- cursor: "<span style='color:   rgb(2, 83, 205);'>|</span>",
+var typewriter = new Typewriter(app, {
+    loop: true
 });
- 
-typewriter
-  .pauseFor(200)
-  .typeString('<span style="color:  rgb(2, 83, 205);">UX    UI    FRONTEND</span>')
-  .pauseFor(200)
-  .deleteChars(10)
-  .start();
 
+typewriter.typeString('Desarrolladora FrontEnd Jr.')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('¡Resuelve el problema, después sé feliz!')
+    .pauseFor(2500)
+    //Cantidad de caracteres a borrar
+    .deleteChars(9)
+    .typeString('<strong>programa!</strong>')
+    .pauseFor(2500)
+    .start();
 
