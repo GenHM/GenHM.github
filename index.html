@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Genesis Hernandez Mendez">
+    <meta name="description" content="Portafolio de desarrollo web Genesis Hernandez M.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Figma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="gif/x-icon" href="assets/1.jpg">
+    <!--CDN Bootstrap estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Iconos Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Hoja de Estilos CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Carter+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Genesis Hernandez Mendez</title>
+</head>
+
+<body>
+
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <span class="fs-4">Génesis Hernández M.</span>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#acercade-mi">Acerca de mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>          
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/1.jpeg" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="hero-imagen-desarrollador rounded-circle" src="assets/2.jpg" alt="Foto Gen">
+          <h1>Hola, soy Génesis Hernández M. </h1>
+          <h2>Desarrollo interfaces de sitios web y brindo clases educativas personalizadas.</h2>
+  
+          <!--Animación con JavaScript-->
+          <h2 class="text-primary mb-4" id="typewriter"></h2>
+        </div>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="assets/3.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y Bootstrap.">
+        </div>
+      </section>
+  
+      <!-- Acerca de mi -->
+      <section id="acercade-mi" class="acercade-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo">Conoce a Génesis Hernández</h2>
+          <p class="seccion-texto">Me encanta el aprendizaje, el diseño de interfaces web y crear soluciones tecnologícas. Mi experiencia laboral incluye las áreas de la tecnología, la enseñanza, la educación y las soluciones informáticas. </p>
+        </div>
+      </section>
+  
+      <!-- Experiencia -->
+      <section class="experiencia seccion-clara">
+        <div class="container text-center">
+          <div class="row">
+            <!-- Diseño de Interfaces Web -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-window-stack"></i>
+              <p class="experiencia-titulo">Interfaces Web</p>
+              <p>Proceso de diseño de interfaces web de sitios web estáticos y dinámicos con diseño responsivo para que sea accesible y visualizado correctamente desde cualquier dispositivo. </p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+                <span class="badge text-bg-primary">Ingenieria en Sistemas Computacionales</span>
+                <span class="badge text-bg-primary">Instituto Tecnológico Superior de Misantla</span>
+              </div>
+            </div>
+            <!-- Desarrollo Web -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Desarrollo Web</p>
+              <p>Tengo experiencia en el desarrollo web, abarcando desde la estructuración semántica con HTML, estilos avanzados con CSS y diseño responsive, hasta la implementación de interactividad dinámica con JavaScript. Además, manejo conceptos de accesibilidad, optimización de rendimiento, y desarrollo modular enfocado en crear aplicaciones funcionales, escalables y bien estructuradas. </p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">HTML</span>
+                <span class="badge text-bg-primary">CSS</span>
+                <span class="badge text-bg-primary">Js</span>
+                <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+                <span class="badge text-bg-primary">Instituto Tecnológico Superior de Misantla</span>
+              </div>
+            </div>
+            <!-- Educacion -->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-book"></i>
+              <p class="experiencia-titulo">Educación</p>
+              <p>Cuento con experiencia en educación, enfocándome en la creación de materiales didácticos, la enseñanza clara y estructurada de conceptos complejos, y la adaptación de contenidos a diferentes perfiles de aprendizaje. Además, desarrollo habilidades de comunicación, empatía y trabajo colaborativo, promoviendo un ambiente de aprendizaje accesible y significativo. </p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Academia de Idiomas</span>
+                <span class="badge text-bg-primary">Licenciatura en Intervención Educativa</span>
+                <span class="badge text-bg-primary">Universidad Pedagógica Nacional</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Proyectos -->
+      <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+        <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="assets/5.jpeg" alt="MasSalud">
+                <div class="overlay">
+                  <p>Diseño Web de MasSalud</p>
+                  <div class="iconos-contenedor">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-behance"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="assets/6.jpg" alt="Turismo">
+                <div class="overlay">
+                  <p>Diseño Web de Turismo</p>
+                  <div class="iconos-contenedor">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-behance"></i>
+                    </a>
+                    <a href="#/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="assets/7.jpg" alt="TuTienda">
+                <div class="overlay">
+                  <p>Diseño Web de TuTienda</p>
+                  <div class="iconos-contenedor">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-behance"></i>
+                    </a>
+                    <a href="#/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!-- Perfil de GitHub-->
+        <a href="https://github.com/GenHM/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section> 
+  
+      <!-- Testimonios -->
+      <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+        
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="assets/8.jpg" alt="Foto de Dr">
+                <p class="testimonio-texto">He tenido la oportunidad de ver el trabajo de Génesis como programadora. Sus habilidades técnicas y su capacidad para desarrollar soluciones efectivas son notables. Siempre entrega proyectos bien estructurados y de alta calidad. Es una profesional comprometida y confiable, y sin duda su trabajo habla por sí mismo.</p>
+                <div class="testimonio-info">
+                  <p class="cliente">Luis Alberto Morales</p>
+                  <p class="cargo">Dr. Computer Science</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="assets/9.jpeg" alt="Foto de Aracely">
+                <p class="testimonio-texto">Tuve la gran oportunidad de compartir con Génesis Hernández en el bootcamp de Technolochicas Pro. Sin duda alguna, demostró ser una excelente desarrolladora front-end, con una notable facilidad de aprendizaje y destacando por sus magníficos diseños. Fue un placer conocerle, y espero seguir de cerca sus futuras creaciones. El futuro que le espera es asombroso.</p>
+                <div class="testimonio-info">
+                  <p class="cliente">Araceli Gonzalez Luna</p>
+                  <p class="cargo">Lic. en Administración de Empresas</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="assets/10.jpeg" alt="Foto de">
+                <p class="testimonio-texto">He tenido la oportunidad de ver el trabajo de Génesis Hernández como programadora y realmente me ha impresionado. Sus habilidades técnicas y su capacidad para desarrollar soluciones efectivas son notables. Siempre entrega proyectos bien estructurados y de alta calidad. Es una profesional comprometida y confiable, y sin duda su trabajo habla por sí mismo.</p>
+                <div class="testimonio-info">
+                  <p class="cliente">Ana Paula Gutierrez Velez</p>
+                  <p class="cargo">Lic. en Idiomas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+  
+      <!-- Contacto -->
+      <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+          <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+              <div class="col-12 col-md-4 seccion-titulo">
+                ¡Contactame!
+              </div>
+              <div class="col-12 col-md-4 descripcion">
+                Enviame un correo para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="mailto:ghm1793@gmail.com">
+                  <button type="button">  
+                    Contacto
+                    <i class="bi bi-envelope-check-fill"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+   <!-- Pie de pagina -->
+   <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+    <img class="footer-logo" src="assets/1.jpeg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">Diseñando, desarrollando, imaginando y creando.<br>Llevemos tu proyecto a la realidad.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+
+      </a>
+      <a href="https://github.com/GenHM" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="http://www.linkedin.com/in/genesis-hernandez-a09237314" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="http://www.instagram.com/geheme" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:ghm1793@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor"><p>Copyright &copy; 2024 Génesis Hernández Méndez</p></div>
+  </footer>
+
+
+
+    <!--Script Java Bootstrap final-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
